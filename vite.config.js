@@ -2,8 +2,11 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
-// https://vite.dev/config/
+const repoName = 'resume'; 
+
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: "resume",
+  // CRITICAL: This prepends the repo name to all asset links in index.html
+  base: `/${repoName}/`, 
+  
+  plugins: [react()],
 });
