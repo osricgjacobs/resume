@@ -6,5 +6,5 @@ import tailwindcss from "@tailwindcss/vite";
 const repoName = "resume";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
- // base: repoName,
+ base: repoName,
 });
