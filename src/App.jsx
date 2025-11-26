@@ -129,7 +129,7 @@ function App() {
         >
           <img
             className="w-20 h-20"
-            src="./public/ResumeLogo.png"
+            src="./public/ResumeLogo-w.png"
             alt="OJ logo"
           />
         </div>
