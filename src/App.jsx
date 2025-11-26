@@ -4,9 +4,7 @@ import Portfolio from "./components/portfolio";
 // Component for the About Me section (Placeholder)
 const AboutMe = () => (
   <div className="bg-white p-8 sm:p-10 rounded-xl shadow-2xl w-full max-w-lg md:max-w-xl text-center">
-    <h2 className="text-3xl font-extrabold text-cyan-950 mb-4">
-      About Me
-    </h2>
+    <h2 className="text-3xl font-extrabold text-cyan-950 mb-4">About Me</h2>
     <p className="text-gray-700 leading-relaxed">
       I pride myself on being detail-oriented, hardworking, and adaptable,
       qualities that allow me to excel both independently and within a
@@ -129,19 +127,15 @@ function App() {
           className="text-xl font-bold text-white tracking-wider cursor-pointer hover:text-cyan-200 transition"
           onClick={() => setCurrentView("profile")}
         >
-          Osric Jacobs
+          <img
+            className="w-20 h-20"
+            src="./public/ResumeLogo.png"
+            alt="OJ logo"
+          />
         </div>
 
         {/* Navigation Buttons Container */}
         <div className="space-x-4">
-          {/* Home Button: Uses 'profile' view for consistency */}
-          <button
-            className={getButtonClass("profile")}
-            onClick={() => setCurrentView("profile")}
-          >
-            Home
-          </button>
-
           {/* Portfolio Button: Sets state to 'portfolio' */}
           <button
             className={getButtonClass("portfolio")}
