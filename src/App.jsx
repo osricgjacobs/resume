@@ -15,7 +15,7 @@ const AboutMe = () => (
       to impactful projects and work opportunities.
     </p>
     <div className="mt-6">
-      <p className="text-md text-gray-500">Contact: osricgjacobs@gmail.com</p>
+      <p className="text-md text-gray-500">Contact: <a href="mailto:osricgjacobs@gmail.com">osricgjacobs@gmail.com</a></p>
       <p className="text-md text-gray-500">
         Bilingual in English and Afrikaans.
       </p>
@@ -35,7 +35,7 @@ const ProfileCard = () => (
     <div className="flex flex-col items-center">
       {/* Profile Image: Slightly increased size */}
       <img
-        src="./Osric_Smile.jpg"
+        src="./profile/Osric_Smile.jpg"
         alt="Picture of Osric Jacobs"
         className="w-40 h-40 object-cover rounded-full border-4 border-cyan-600 mb-6 shadow-lg"
       />
@@ -53,7 +53,7 @@ const ProfileCard = () => (
           rel="noopener noreferrer"
         >
           <img
-            src="./linkedin.png"
+            src="./colour_icons/linkedin.png"
             alt="LinkedIn"
             className="w-10 h-10 opacity-80 hover:opacity-100 transition duration-300 cursor-pointer"
           />
@@ -64,14 +64,14 @@ const ProfileCard = () => (
           rel="noopener noreferrer"
         >
           <img
-            src="./github.png"
+            src="./colour_icons/github.png"
             alt="GitHub"
             className="w-10 h-10 opacity-80 hover:opacity-100 transition duration-300 cursor-pointer"
           />
         </a>
         <a href="mailto:osricgjacobs@gmail.com">
           <img
-            src="./gmail.png"
+            src="./colour_icons/gmail.png"
             alt="GMail"
             className="w-10 h-10 opacity-80 hover:opacity-100 transition duration-300 cursor-pointer"
           />
@@ -82,7 +82,7 @@ const ProfileCard = () => (
           rel="noopener noreferrer"
         >
           <img
-            src="./instagram.png"
+            src="./colour_icons/instagram.png"
             alt="Instagram"
             className="w-10 h-10 opacity-80 hover:opacity-100 transition duration-300 cursor-pointer"
           />
@@ -129,7 +129,7 @@ function App() {
         >
           <img
             className="w-20 h-20"
-            src="./public/ResumeLogo-w.png"
+            src="./logo/ResumeLogo-w.png"
             alt="OJ logo"
           />
         </div>
