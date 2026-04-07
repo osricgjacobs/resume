@@ -30,7 +30,12 @@ function Portfolio() {
               bring solid technical proficiency to my work.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              I have intermediate expertise in Adobe Photoshop and Illustrator,
+              I have developed practical experience in data analysis through my
+              Business Analytics module and DataCamp, where I gained skills in R
+              programming and SQL, including data manipulation, cleaning, and
+              analysis. This has strengthened my ability to work with
+              data-driven insights and enhanced my analytical thinking. I also
+              have intermediate expertise in Adobe Photoshop and Illustrator,
               supported by hands-on experience as a digital photographer. I am
               currently expanding my web development capabilities by building
               responsive websites using HTML, CSS, and JavaScript, while
@@ -71,8 +76,8 @@ function Portfolio() {
                 November 2024 (1 month)
               </p>
               <p className="text-gray-700 mt-2">
-                Recorded utterances for voice recognition software used in
-                Google Gemini.
+                Recording utterances for voice recognition which will be used
+                for Google Gemini.
               </p>
             </div>
           </section>
@@ -92,6 +97,31 @@ function Portfolio() {
               <p className="text-gray-700 mt-2">
                 Skills: Business Analysis, Requirements gathering, Project
                 Management.
+              </p>
+            </div>
+            <div className="mb-6 border-l-4 border-cyan-500 pl-4">
+              <h3 className="text-xl font-semibold text-gray-900">
+                Intermediate R
+              </h3>
+              <p className="text-sm text-gray-500">
+                Issued by DataCamp | March 2026
+              </p>
+
+              <p className="text-gray-700 mt-2">
+                Skills: R (Programming), Data Analysis, Data Cleaning, Data
+                Entry and Data Modeling.
+              </p>
+            </div>
+            <div className="mb-6 border-l-4 border-cyan-500 pl-4">
+              <h3 className="text-xl font-semibold text-gray-900">
+                Intermediate SQL
+              </h3>
+              <p className="text-sm text-gray-500">
+                Issued by DataCamp | March 2026
+              </p>
+
+              <p className="text-gray-700 mt-2">
+                Skills: SQL and Data Queries.
               </p>
             </div>
           </section>
